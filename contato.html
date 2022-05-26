@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Val Assessoria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav id="menu-h">
+
+        <ul>
+            <img id="logo" src="logo.jpg" alt="" width="90">
+            <li><a href="index.html" target="blank">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="login.html">Login</a></li>
+
+        </ul>
+    </nav>
+    
+    <div>
+        <figure id="mascote">
+            <img src="mascote.png" alt="">
+        </figure>
+    </div>
+
+        <div>
+            <h2 id="titulo">Formulário de Contato</h2>
+            <p id="subtitulo">Por favor, preencha suas informações</p>
+            <br>
+        </div>
+
+
+    <form>
+        <fieldset>
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" size="30" id="nome" name="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" size="30" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label> 
+                <input type="email" size="30" name="email" id="email" required placeholder="example@gmail.com">
+            </div>
+
+        </fieldset>
+
+            <div>
+                <label>Objetivos principais:</label>
+                <label>
+                    <input type="radio" name="objectives" value="peso" checked> Perda de peso 
+                </label>
+                <label>
+                    <input type="radio" name="objectives" value="massa">Hipertrofia muscular
+                </label>
+                <label>
+                    <input type="radio" name="objectives" value="saude"> Saúde/Qualidade de vida
+                </label>
+                <label>
+                    <input type="radio" name="objectives" value="reabilition">Reabilitaçao Física
+                </label>
+                
+            </div>
+            <br>
+            <div>
+                <label> Conte um pouco sobre você</label>
+                <br><br>
+                <textarea style="width: 26em" name="sobre" id="sobre" cols="30" rows="10" placeholder="Já fez atividade física? Qual modalidade mais gosta... :)"></textarea>
+                <br>
+                <button class="botao" type="submit">Enviar</button>
+            
+            </div>
+
+            
+        
+    </form>
+    
+
+   
+
+</body>
+
+</html>
